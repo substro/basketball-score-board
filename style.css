@@ -1,7 +1,9 @@
+
 @font-face {
   font-family: digitalClock;
   src: url(/fonts/CursedTimerUlil-Aznm.ttf);
 }
+
 
 * {
   box-sizing: border-box;
