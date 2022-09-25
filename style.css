@@ -1,4 +1,7 @@
-@import url("http://fonts.cdnfonts.com/css/cursed-timer-ulil");
+@font-face {
+  font-family: digitalClock;
+  src: url(/fonts/CursedTimerUlil-Aznm.ttf);
+}
 
 * {
   box-sizing: border-box;
@@ -29,7 +32,7 @@ body {
 #home-counter {
   border: 5px solid rgb(255, 255, 255);
 
-  font-family: "Cursed Timer ULiL", sans-serif;
+  font-family: digitalClock;
   font-size: 65px;
   color: tomato;
   background-color: black;
@@ -50,7 +53,7 @@ h3 {
 #hb1,
 #hb2,
 #hb3 {
-  font-family: "Cursed Timer ULiL", sans-serif;
+  font-family: digitalClock;  
   border-radius: 5px;
   background-color: transparent;
   color: white;
