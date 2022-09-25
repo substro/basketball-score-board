@@ -2,4 +2,4 @@
 Score board board counter
 This was a solo challenge from a scrimba course
 
-Here is the live page:
+Here is the live page: https://substro.github.io/basketball-score-board/
