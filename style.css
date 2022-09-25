@@ -1,0 +1,81 @@
+@import url("http://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgba(84, 7, 7, 0.701);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  background-color: rgb(7, 3, 37);
+  width: 500px;
+  padding: 50px 0px;
+  border-radius: 20px;
+  border: 5px solid rgb(208, 205, 205);
+  color: rgb(255, 255, 255);
+  margin: 15px;
+}
+#guest-counter,
+#home-counter {
+  border: 5px solid rgb(255, 255, 255);
+
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 65px;
+  color: tomato;
+  background-color: black;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+}
+.buttons {
+  text-align: center;
+}
+#gb1,
+#gb2,
+#gb3,
+#hb1,
+#hb2,
+#hb3 {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  width: 50px;
+  height: 40px;
+  margin-left: 5px;
+  padding: 15px;
+  box-shadow: 1px 1px 0px #fff;
+}
+#gb1:hover,
+#gb2:hover,
+#gb3:hover,
+#hb1:hover,
+#hb2:hover,
+#hb3:hover {
+  background: rgb(201, 199, 199);
+  color: rgb(7, 3, 37);
+}
+#gb1:active,
+#gb2:active,
+#gb3:active,
+#hb1:active,
+#hb2:active,
+#hb3:active {
+  background: rgb(7, 3, 37);
+  color: #fff;
+}
